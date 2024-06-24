@@ -22,6 +22,11 @@ Clone the repository and build the executable:
 git clone https://github.com/yourusername/goExtractor.git
 cd goExtractor
 make build
-
+```
+This will create an executable file named goextractor in the ./bin directory.
 
 ## Usage
+Run the executable with the following options:
+```sh
+./bin/goextractor -ext=<extensions> -target=<directory> -output=<output_file>
+```
