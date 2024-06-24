@@ -57,7 +57,7 @@ This will compile the goextractor executable and place it in the ./bin directory
 ## Running Project
 To build and run the project in one step, use:
 ```sh
-make rn
+make run
 ```
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
