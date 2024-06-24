@@ -22,3 +22,6 @@ Clone the repository and build the executable:
 git clone https://github.com/yourusername/goExtractor.git
 cd goExtractor
 make build
+
+
+## Usage
