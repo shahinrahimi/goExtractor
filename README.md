@@ -30,3 +30,45 @@ Run the executable with the following options:
 ```sh
 ./bin/goextractor -ext=<extensions> -target=<directory> -output=<output_file>
 ```
+## Options
+- -ext: Comma-separated list of file extensions to include (e.g., go,py,tsx). If not provided, all files except .txt files are included.
+- -target: Target directory to search for files. Default is the current working directory.
+- -output: Output file to write the contents. Default is output.txt in the current working directory.
+
+## Examples
+Extract all .go and .py files
+```sh
+./bin/goextractor -ext=go,py
+```
+Specify a target directory
+```sh
+./bin/goextractor -ext=go,py -target=/path/to/directory
+```
+Specify an output file
+```sh
+./bin/goextractor -ext=go,py -target=/path/to/directory -output=results.txt
+```
+## Building the Project
+To build the project, simply run:
+```sh
+make build
+```
+This will compile the goextractor executable and place it in the ./bin directory.
+## Running Project
+To build and run the project in one step, use:
+```sh
+make rn
+```
+## Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature-branch).
+3. Commit your changes (git commit -am 'Add new feature').
+4. Push to the branch (git push origin feature-branch).
+5. Create a new Pull Request.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
