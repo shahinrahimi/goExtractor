@@ -19,7 +19,7 @@
 Clone the repository and build the executable:
 
 ```sh
-git clone https://github.com/yourusername/goExtractor.git
+git clone https://github.com/shahinrahimi/goExtractor.git
 cd goExtractor
 make build
 ```
